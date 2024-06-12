@@ -1,34 +1,5 @@
 # These are school projects done in the Nait Data Analytics Program
 
-## Project 1 - NLP and Text Classification
-
-In this project, we (group of 3) classified some angry comments into their respective categories of anger. The process we followed was roughly:
-
-We used NLP techniques to process the training data.
-We trained models to predict which class(es) each comment belongs to.
-A comment can belong to any number of classes, including none.
-We generated predictions for each of the comments in the test data.
-We wrote our test data predictions to a CSV file, which was then scored.
-We used various models and NLP libraries. We thought about the problem, looked back to see if there was anything that might help, gave it a try, and observed the results. We regularly referred to a "toolkit" of techniques, not knowing which ones we'd need, but aimed for a simple goal: if it made the predictions more accurate, it was helpful. There wasn't one specific solution; there were many potential approaches.
-
-
-## Project 2 - Veggie Classification
-
-In this assignment, we classified images of vegetables.
-
-Parts
-We performed two separate classifications:
-
-First, we created a model from scratch.
-Then, we used transfer learning with a pretrained model of our choice, adapted to this data.
-There wasn't an explicit evaluation of accuracy, but we took steps to make each model as accurate as we reasonably could, using any tuning options available. Additionally, we structured our work into a well-organized and clear notebook that explained what we did and found. We considered the following elements:
-
-Sections and headings.
-A description of the approach taken (e.g., what we did to determine size, tune, evaluate, etc.).
-Visualization of important aspects such as a confusion matrix and some images.
-Results, mainly focused on the scoring of the test data.
-
-
 ## Assignment 2 - Regression
 
 Predict the TOTAL COMPENSATION for this year
@@ -77,3 +48,33 @@ Optimization and Evaluation:
 
 Experimented with different neural network architectures and hyperparameters.
 Evaluated model performance using appropriate metrics and techniques to handle imbalanced data.
+
+## Project 1 - NLP and Text Classification
+
+In this project, we (group of 3) classified some angry comments into their respective categories of anger. The process we followed was roughly:
+
+We used NLP techniques to process the training data.
+We trained models to predict which class(es) each comment belongs to.
+A comment can belong to any number of classes, including none.
+We generated predictions for each of the comments in the test data.
+We wrote our test data predictions to a CSV file, which was then scored.
+We used various models and NLP libraries. We thought about the problem, looked back to see if there was anything that might help, gave it a try, and observed the results. We regularly referred to a "toolkit" of techniques, not knowing which ones we'd need, but aimed for a simple goal: if it made the predictions more accurate, it was helpful. There wasn't one specific solution; there were many potential approaches.
+
+
+## Project 2 - Veggie Classification
+
+In this assignment, we (group of 3) classified images of vegetables.
+
+Parts
+We performed two separate classifications:
+
+First, we created a model from scratch.
+Then, we used transfer learning with a pretrained model of our choice, adapted to this data.
+There wasn't an explicit evaluation of accuracy, but we took steps to make each model as accurate as we reasonably could, using any tuning options available. Additionally, we structured our work into a well-organized and clear notebook that explained what we did and found. We considered the following elements:
+
+Sections and headings.
+A description of the approach taken (e.g., what we did to determine size, tune, evaluate, etc.).
+Visualization of important aspects such as a confusion matrix and some images.
+Results, mainly focused on the scoring of the test data.
+
+
